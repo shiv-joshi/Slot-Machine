@@ -1,0 +1,14 @@
+.deposit-input {
+    display: grid;
+}
+
+.setup-input {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border: 1px solid E892AF;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 7px;
+}

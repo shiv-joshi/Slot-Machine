@@ -1,0 +1,67 @@
+.reels {
+    width: 100px;
+    display: grid;
+    justify-content: start;
+    align-content: start;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.item {
+    padding: 10px;
+}
+
+.spin-button {
+    width: 100px;
+    padding: 5px;
+    font-family: Andalé Mono, monospace;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #E892AF;
+}
+
+.slots-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #E6CB77;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #E8A20A;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    box-shadow: 0 0 16px black;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+.winning {
+    font-weight: 700;
+    font-family: American Typewriter, serif;
+}

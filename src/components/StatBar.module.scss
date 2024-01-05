@@ -1,0 +1,23 @@
+.stat-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #E892AF;
+    color: #111010;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    font-family: American Typewriter, serif;
+}
+
+.stat {
+    display: flex;
+    gap: 1px;
+}
+
+.stat {}
